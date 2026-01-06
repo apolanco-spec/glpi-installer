@@ -22,8 +22,7 @@ sudo ./uninstall-glpi.sh
 ================================================================================================
 ## Instalación Certificado SSL
 
-wget -O install-ssl-certbot.sh \
-https://raw.githubusercontent.com/apolanco-spec/glpi-installer/main/install-ssl-certbot.sh
+wget -O install-ssl-certbot.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/main/install-ssl-certbot.sh
 
 chmod +x install-ssl-certbot.sh
 
