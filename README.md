@@ -6,6 +6,10 @@ chmod +x install-glpi.sh
 
 sudo ./install-glpi.sh
 
+wget -O install-glpi.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/main/install-glpi.sh
+chmod +x install-glpi.sh
+sudo ./install-glpi.sh
+
 ================================================================================================
 ## Desinstalación
 
