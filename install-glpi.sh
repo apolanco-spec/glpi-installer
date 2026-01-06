@@ -68,6 +68,18 @@ IP=$(hostname -I | awk '{print $1}')
 
 echo "======================================="
 echo "✅ GLPI INSTALADO CORRECTAMENTE"
-echo "URL: http://${IP}:${APACHE_PORT}"
-echo "Usuario admin: glpi | Password: glpi"
+echo "---------------------------------------"
+echo "🌐 Acceso web:"
+echo "   http://${IP}:${APACHE_PORT}"
+echo
+echo "🧑 Usuario administrador GLPI:"
+echo "   Usuario: glpi"
+echo "   Clave:   glpi"
+echo
+echo "🗄️ Base de datos MariaDB:"
+echo "   Base:    ${GLPI_DB}"
+echo "   Usuario: ${GLPI_DB_USER}"
+echo "   Clave:   ${GLPI_DB_PASS}"
+echo
+echo "⚠️ CAMBIA TODAS LAS CONTRASEÑAS AL PRIMER ACCESO"
 echo "======================================="
