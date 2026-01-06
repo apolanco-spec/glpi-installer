@@ -1,6 +1,6 @@
 ## Instalación
 
-wget -O install-glpi.sh https://raw.githubusercontent.com/usuario/repo/main/install-glpi.sh
+wget -O install-glpi.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/refs/heads/main/install-glpi.sh
 
 chmod +x install-glpi.sh
 
