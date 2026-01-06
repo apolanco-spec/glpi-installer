@@ -9,7 +9,7 @@ sudo ./install-glpi.sh
 ================================================================================================
 ## Desinstalación
 
-wget -O uninstall-glpi.sh https://raw.githubusercontent.com/usuario/repo/main/uninstall-glpi.sh
+wget -O uninstall-glpi.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/refs/heads/main/uninstall-glpi.sh
 
 chmod +x uninstall-glpi.sh
 
