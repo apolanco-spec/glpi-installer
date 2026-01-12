@@ -1,4 +1,4 @@
-## Instalación
+## Instalación 1
 
 wget -O install-glpi.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/refs/heads/main/install-glpi.sh
 
@@ -6,8 +6,12 @@ chmod +x install-glpi.sh
 
 sudo ./install-glpi.sh
 
+## Instalación Opcional 2
+
 wget -O install-glpi.sh https://raw.githubusercontent.com/apolanco-spec/glpi-installer/main/install-glpi.sh
+
 chmod +x install-glpi.sh
+
 sudo ./install-glpi.sh
 
 ================================================================================================
